@@ -30,7 +30,8 @@ private Long id;
 		this.id = movie.getId();
 		this.title = movie.getTitle();
 		this.score = movie.getScore();
-		this.image = movie.getImage();
+		this.count = movie.getCount();
+		this.image = movie.getImage();		
 	}
 
 	public Long getId() {
